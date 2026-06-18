@@ -1,0 +1,37 @@
+{
+  "input": "pccf_qwen7b_memotrap_stats\\pid_vs_global\\pid_vs_global_combined.csv",
+  "reference": "global_pccf_pi0.7",
+  "control": "pccf_pid_lite",
+  "n": 88,
+  "reference_target_wins": 76,
+  "control_target_wins": 77,
+  "reference_target_win_rate": 0.8636363636363636,
+  "control_target_win_rate": 0.875,
+  "reference_wilson_95": [
+    0.7766124962428852,
+    0.9202405461826478
+  ],
+  "control_wilson_95": [
+    0.7898824415232533,
+    0.9287472584780776
+  ],
+  "paired_improvements": 5,
+  "paired_regressions": 4,
+  "both_correct": 72,
+  "both_wrong": 7,
+  "mcnemar_exact_p": 1.0,
+  "mean_reference_margin": 0.6655402305340772,
+  "mean_control_margin": 0.600541560649825,
+  "mean_margin_delta": -0.06499866988425211,
+  "margin_delta_bootstrap_95": [
+    -0.13802860973916442,
+    0.002409356667135871
+  ],
+  "mean_p_target_delta": -0.03249933494212605,
+  "p_target_delta_bootstrap_95": [
+    -0.06898357917325705,
+    0.0017105645630339603
+  ],
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 12345
+}

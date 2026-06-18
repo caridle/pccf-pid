@@ -1,0 +1,37 @@
+{
+  "input": "pccf_qwen7b_memotrap_baseline_88\\memotrap_results.csv",
+  "reference": "standard",
+  "control": "global_pccf_pi0.7",
+  "n": 88,
+  "reference_target_wins": 71,
+  "control_target_wins": 76,
+  "reference_target_win_rate": 0.8068181818181818,
+  "control_target_win_rate": 0.8636363636363636,
+  "reference_wilson_95": [
+    0.7122293318676104,
+    0.8757404226789328
+  ],
+  "control_wilson_95": [
+    0.7766124962428852,
+    0.9202405461826478
+  ],
+  "paired_improvements": 8,
+  "paired_regressions": 3,
+  "both_correct": 68,
+  "both_wrong": 9,
+  "mcnemar_exact_p": 0.2265625,
+  "mean_reference_margin": 0.5395238564417446,
+  "mean_control_margin": 0.6655402305340772,
+  "mean_margin_delta": 0.1260163740923325,
+  "margin_delta_bootstrap_95": [
+    0.0438905688216003,
+    0.2190732022592963
+  ],
+  "mean_p_target_delta": 0.06300818704616623,
+  "p_target_delta_bootstrap_95": [
+    0.021079953549532307,
+    0.10883528659688355
+  ],
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 12345
+}

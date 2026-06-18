@@ -1,0 +1,2 @@
+task,category,n,zero_direction,target_direction,distractor_direction,mean_target_support,mean_distractor_support,mean_support_gap,median_abs_support_gap,abs_gap_ge_0p05,target_gap_ge_0p05,distractor_gap_ge_0p05,target_eligible_rate_0p05,abs_gap_ge_0p1,target_gap_ge_0p1,distractor_gap_ge_0p1,target_eligible_rate_0p1,abs_gap_ge_0p25,target_gap_ge_0p25,distractor_gap_ge_0p25,target_eligible_rate_0p25
+memotrap,round_2,100,12,88,0,1.0,0.12,0.88,1.0,88,88,0,0.88,88,88,0,0.88,88,88,0,0.88

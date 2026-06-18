@@ -1,0 +1,37 @@
+{
+  "input": "pccf_qwen_memotrap_pid_88\\jsonl_pid_results.csv",
+  "reference": "standard",
+  "control": "pccf_pid_lite",
+  "n": 88,
+  "reference_target_wins": 60,
+  "control_target_wins": 67,
+  "reference_target_win_rate": 0.6818181818181818,
+  "control_target_win_rate": 0.7613636363636364,
+  "reference_wilson_95": [
+    0.5786523452420933,
+    0.7697741759706731
+  ],
+  "control_wilson_95": [
+    0.662573550326628,
+    0.8382895739167237
+  ],
+  "paired_improvements": 8,
+  "paired_regressions": 1,
+  "both_correct": 59,
+  "both_wrong": 20,
+  "mcnemar_exact_p": 0.0390625,
+  "mean_reference_margin": 0.3053490652626501,
+  "mean_control_margin": 0.46053949198419825,
+  "mean_margin_delta": 0.15519042672154815,
+  "margin_delta_bootstrap_95": [
+    0.1109136727920666,
+    0.20286889996318766
+  ],
+  "mean_p_target_delta": 0.07759521336077407,
+  "p_target_delta_bootstrap_95": [
+    0.05486848533884692,
+    0.10207229426148413
+  ],
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 12345
+}

@@ -1,0 +1,123 @@
+{
+  "dataset": "jsonl",
+  "dataset_file": "pccf_benchmark_audit\\memotrap_eligible_gap0p25.jsonl",
+  "limit": 88,
+  "thresholds": [
+    0.05,
+    0.1,
+    0.25
+  ],
+  "primary_min_gap": 0.25,
+  "overall": {
+    "n": 88,
+    "zero_direction": 0,
+    "target_direction": 88,
+    "distractor_direction": 0,
+    "mean_target_support": 1.0,
+    "mean_distractor_support": 0.0,
+    "mean_support_gap": 1.0,
+    "median_abs_support_gap": 1.0,
+    "abs_gap_ge_0p05": 88,
+    "target_gap_ge_0p05": 88,
+    "distractor_gap_ge_0p05": 0,
+    "target_eligible_rate_0p05": 1.0,
+    "abs_gap_ge_0p1": 88,
+    "target_gap_ge_0p1": 88,
+    "distractor_gap_ge_0p1": 0,
+    "target_eligible_rate_0p1": 1.0,
+    "abs_gap_ge_0p25": 88,
+    "target_gap_ge_0p25": 88,
+    "distractor_gap_ge_0p25": 0,
+    "target_eligible_rate_0p25": 1.0
+  },
+  "by_task": [
+    {
+      "task": "memotrap",
+      "category": "round_2",
+      "n": 88,
+      "zero_direction": 0,
+      "target_direction": 88,
+      "distractor_direction": 0,
+      "mean_target_support": 1.0,
+      "mean_distractor_support": 0.0,
+      "mean_support_gap": 1.0,
+      "median_abs_support_gap": 1.0,
+      "abs_gap_ge_0p05": 88,
+      "target_gap_ge_0p05": 88,
+      "distractor_gap_ge_0p05": 0,
+      "target_eligible_rate_0p05": 1.0,
+      "abs_gap_ge_0p1": 88,
+      "target_gap_ge_0p1": 88,
+      "distractor_gap_ge_0p1": 0,
+      "target_eligible_rate_0p1": 1.0,
+      "abs_gap_ge_0p25": 88,
+      "target_gap_ge_0p25": 88,
+      "distractor_gap_ge_0p25": 0,
+      "target_eligible_rate_0p25": 1.0
+    }
+  ],
+  "examples": {
+    "ambiguous": [],
+    "distractor_supported": [],
+    "target_eligible": [
+      {
+        "item_id": "memotrap_0",
+        "task": "memotrap",
+        "category": "round_2",
+        "target": "heavy.",
+        "distractor": "fonder.",
+        "target_support": 1.0,
+        "distractor_support": 0.0,
+        "support_gap": 1.0,
+        "evidence_direction": "target"
+      },
+      {
+        "item_id": "memotrap_1",
+        "task": "memotrap",
+        "category": "round_2",
+        "target": "returned.",
+        "distractor": "forgotten.",
+        "target_support": 1.0,
+        "distractor_support": 0.0,
+        "support_gap": 1.0,
+        "evidence_direction": "target"
+      },
+      {
+        "item_id": "memotrap_2",
+        "task": "memotrap",
+        "category": "round_2",
+        "target": "background.",
+        "distractor": "wrong.",
+        "target_support": 1.0,
+        "distractor_support": 0.0,
+        "support_gap": 1.0,
+        "evidence_direction": "target"
+      },
+      {
+        "item_id": "memotrap_3",
+        "task": "memotrap",
+        "category": "round_2",
+        "target": "way.",
+        "distractor": "families.",
+        "target_support": 1.0,
+        "distractor_support": 0.0,
+        "support_gap": 1.0,
+        "evidence_direction": "target"
+      },
+      {
+        "item_id": "memotrap_4",
+        "task": "memotrap",
+        "category": "round_2",
+        "target": "thoughts.",
+        "distractor": "words.",
+        "target_support": 1.0,
+        "distractor_support": 0.0,
+        "support_gap": 1.0,
+        "evidence_direction": "target"
+      }
+    ]
+  },
+  "eligible_jsonl": null,
+  "eligible_jsonl_count": null,
+  "schema_note": "target_gap_ge_* counts items where direct prompt support favors the labeled target. PCCF-PID evidence/probe modes require at least a non-ambiguous evidence direction; strict context-faithfulness tests should have many target_gap_ge_0p25 items."
+}

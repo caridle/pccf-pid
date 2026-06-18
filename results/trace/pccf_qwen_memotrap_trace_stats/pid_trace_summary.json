@@ -1,0 +1,29 @@
+{
+  "results": "pccf_qwen_memotrap_pid_88\\jsonl_pid_results.csv",
+  "trace": "pccf_qwen_memotrap_pid_88\\jsonl_pid_trace.csv",
+  "n_items": 88,
+  "final_pi_changed": 55,
+  "final_pi_lower": 41,
+  "final_pi_higher": 14,
+  "final_pi_counts": {
+    "0.4": 41,
+    "1.0": 33,
+    "1.4": 14
+  },
+  "probe_direction_counts": {
+    "lower": 41,
+    "none": 33,
+    "higher": 14
+  },
+  "by_task": [
+    {
+      "task": "memotrap",
+      "n": 88,
+      "final_pi_changed": 55,
+      "final_pi_lower": 41,
+      "final_pi_higher": 14,
+      "mean_pid_margin": 0.46053949198419825,
+      "mean_pid_p_target": 0.7302697459920992
+    }
+  ]
+}

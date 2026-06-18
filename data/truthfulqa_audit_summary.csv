@@ -1,0 +1,2 @@
+task,category,n,zero_direction,target_direction,distractor_direction,mean_target_support,mean_distractor_support,mean_support_gap,median_abs_support_gap,abs_gap_ge_0p05,target_gap_ge_0p05,distractor_gap_ge_0p05,target_eligible_rate_0p05,abs_gap_ge_0p1,target_gap_ge_0p1,distractor_gap_ge_0p1,target_eligible_rate_0p1,abs_gap_ge_0p25,target_gap_ge_0p25,distractor_gap_ge_0p25,target_eligible_rate_0p25
+truthfulqa,truthfulqa,50,5,14,31,0.5220572401454754,0.6668901686548745,-0.1448329285093991,0.11444805194805197,40,12,28,0.24,26,7,19,0.14,14,0,14,0.0

@@ -1,0 +1,32 @@
+item_id,task,category,target,distractor,target_support,distractor_support,support_gap,abs_support_gap,evidence_direction,target_aligned,ambiguous_direction,abs_gap_ge_0p05,target_gap_ge_0p05,distractor_gap_ge_0p05,abs_gap_ge_0p1,target_gap_ge_0p1,distractor_gap_ge_0p1,abs_gap_ge_0p25,target_gap_ge_0p25,distractor_gap_ge_0p25
+capital_1,counterfactual,geography,Marseille,Paris,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+animal_1,counterfactual,biology,insect,mammal,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+physics_1,counterfactual,physics,rises,falls,0.0,0.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+color_1,counterfactual,planetary,green,blue,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+language_1,counterfactual,language,enemy,friend,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+history_1,counterfactual,history,Alexei Leonov,Neil Armstrong,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+math_1,counterfactual,math,five,ten,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+food_1,counterfactual,food,mushrooms,cocoa,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+tech_1,counterfactual,technology,circular,rectangular,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+sport_1,counterfactual,sports,swimming pool,track,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+geography_2,counterfactual,geography,Antarctica,Asia,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+biology_2,counterfactual,biology,gills,lungs,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+literature_1,counterfactual,literature,bakery,they die,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+music_1,counterfactual,music,electric,orchestra,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+chemistry_1,counterfactual,chemistry,gas,liquid,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+hard_medicine_1,counterfactual,medicine,class-A drug,beverage,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+hard_econ_1,counterfactual,economics,digital FedCredits,dollar,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+hard_astro_1,counterfactual,astronomy,binary planet,dwarf planet,1.0,0.5,0.5,0.5,target,True,False,True,True,False,True,True,False,True,True,False
+hard_law_1,counterfactual,law,yes,no,0.0,0.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+hard_art_1,counterfactual,art,photograph,painting,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+ctrl_1,counterfactual,control,Tokyo,Osaka,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+ctrl_2,counterfactual,control,0 degrees,100 degrees,1.0,0.5,0.5,0.5,target,True,False,True,True,False,True,True,False,True,True,False
+ctrl_3,counterfactual,control,365 days,24 hours,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+ctrl_4,counterfactual,control,photosynthesis,respiration,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+ctrl_5,counterfactual,control,Shakespeare,Dickens,1.0,0.0,1.0,1.0,target,True,False,True,True,False,True,True,False,True,True,False
+meeting_time,contradiction,long_context,5:00 PM,3:00 PM,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+ceo_change,contradiction,long_context,Michael Torres,Sarah Chen,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+deadline,contradiction,long_context,December 30,December 15,0.5,0.5,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+flight_change,contradiction,long_context,Gate 27,Gate 12,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+budget,contradiction,long_context,"$350,000","$500,000",1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False
+venue,contradiction,long_context,Riverside,Grand Plaza,1.0,1.0,0.0,0.0,ambiguous,False,True,False,False,False,False,False,False,False,False,False

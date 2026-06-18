@@ -1,0 +1,121 @@
+{
+  "dataset": "fever_label",
+  "dataset_file": null,
+  "limit": 20,
+  "thresholds": [
+    0.05,
+    0.1,
+    0.25
+  ],
+  "primary_min_gap": 0.25,
+  "overall": {
+    "n": 20,
+    "zero_direction": 20,
+    "target_direction": 0,
+    "distractor_direction": 0,
+    "mean_target_support": 1.0,
+    "mean_distractor_support": 1.0,
+    "mean_support_gap": 0.0,
+    "median_abs_support_gap": 0.0,
+    "abs_gap_ge_0p05": 0,
+    "target_gap_ge_0p05": 0,
+    "distractor_gap_ge_0p05": 0,
+    "target_eligible_rate_0p05": 0.0,
+    "abs_gap_ge_0p1": 0,
+    "target_gap_ge_0p1": 0,
+    "distractor_gap_ge_0p1": 0,
+    "target_eligible_rate_0p1": 0.0,
+    "abs_gap_ge_0p25": 0,
+    "target_gap_ge_0p25": 0,
+    "distractor_gap_ge_0p25": 0,
+    "target_eligible_rate_0p25": 0.0
+  },
+  "by_task": [
+    {
+      "task": "fever_label",
+      "category": "fever_label",
+      "n": 20,
+      "zero_direction": 20,
+      "target_direction": 0,
+      "distractor_direction": 0,
+      "mean_target_support": 1.0,
+      "mean_distractor_support": 1.0,
+      "mean_support_gap": 0.0,
+      "median_abs_support_gap": 0.0,
+      "abs_gap_ge_0p05": 0,
+      "target_gap_ge_0p05": 0,
+      "distractor_gap_ge_0p05": 0,
+      "target_eligible_rate_0p05": 0.0,
+      "abs_gap_ge_0p1": 0,
+      "target_gap_ge_0p1": 0,
+      "distractor_gap_ge_0p1": 0,
+      "target_eligible_rate_0p1": 0.0,
+      "abs_gap_ge_0p25": 0,
+      "target_gap_ge_0p25": 0,
+      "distractor_gap_ge_0p25": 0,
+      "target_eligible_rate_0p25": 0.0
+    }
+  ],
+  "examples": {
+    "ambiguous": [
+      {
+        "item_id": "fever_106579",
+        "task": "fever_label",
+        "category": "fever_label",
+        "target": "refuted",
+        "distractor": "supported",
+        "target_support": 1.0,
+        "distractor_support": 1.0,
+        "support_gap": 0.0,
+        "evidence_direction": "ambiguous"
+      },
+      {
+        "item_id": "fever_146762",
+        "task": "fever_label",
+        "category": "fever_label",
+        "target": "supported",
+        "distractor": "refuted",
+        "target_support": 1.0,
+        "distractor_support": 1.0,
+        "support_gap": 0.0,
+        "evidence_direction": "ambiguous"
+      },
+      {
+        "item_id": "fever_39665",
+        "task": "fever_label",
+        "category": "fever_label",
+        "target": "supported",
+        "distractor": "refuted",
+        "target_support": 1.0,
+        "distractor_support": 1.0,
+        "support_gap": 0.0,
+        "evidence_direction": "ambiguous"
+      },
+      {
+        "item_id": "fever_61652",
+        "task": "fever_label",
+        "category": "fever_label",
+        "target": "supported",
+        "distractor": "refuted",
+        "target_support": 1.0,
+        "distractor_support": 1.0,
+        "support_gap": 0.0,
+        "evidence_direction": "ambiguous"
+      },
+      {
+        "item_id": "fever_226072",
+        "task": "fever_label",
+        "category": "fever_label",
+        "target": "supported",
+        "distractor": "refuted",
+        "target_support": 1.0,
+        "distractor_support": 1.0,
+        "support_gap": 0.0,
+        "evidence_direction": "ambiguous"
+      }
+    ],
+    "distractor_supported": [],
+    "target_eligible": []
+  },
+  "schema_note": "target_gap_ge_* counts items where direct prompt support favors the labeled target. PCCF-PID evidence/probe modes require at least a non-ambiguous evidence direction; strict context-faithfulness tests should have many target_gap_ge_0p25 items."
+}

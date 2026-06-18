@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local model/cache directories should never be committed.
+models/
+checkpoints/
+.cache/
+huggingface/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Reproduced outputs can be regenerated locally.
+results/**/reproduced*/
+data/reproduced_audit/
+
+# Local editor/system files.
+.DS_Store
+Thumbs.db
